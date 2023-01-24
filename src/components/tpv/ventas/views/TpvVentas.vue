@@ -1,6 +1,7 @@
 <template>
   <h3>Hola</h3>
 </template>
+
 <script>
 import { defineComponent } from 'vue';
 

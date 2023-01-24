@@ -139,6 +139,8 @@
                 <q-item-label>User Profile</q-item-label>
               </q-item-section>
             </q-item>
+
+            <!-- Item -->
             <q-item
               to="/Maintenance"
               active-class="q-item-no-link-highlighting"
@@ -148,6 +150,17 @@
               </q-item-section>
               <q-item-section>
                 <q-item-label>Maintenance</q-item-label>
+              </q-item-section>
+            </q-item>
+
+            <!-- Item -->
+
+            <q-item to="/Ventas" active-class="q-item-no-link-highlighting">
+              <q-item-section avatar>
+                <q-icon name="settings" />
+              </q-item-section>
+              <q-item-section>
+                <q-item-label>Ventas</q-item-label>
               </q-item-section>
             </q-item>
           </q-list>
